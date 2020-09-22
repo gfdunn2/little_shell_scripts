@@ -11,4 +11,4 @@ help() {
 
 [ "$1" == "--help" ] && help
 
-sudo less +G -f /var/log/kern.log
+less +G -f /var/log/kern.log
